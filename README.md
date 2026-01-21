@@ -1,3 +1,8 @@
+
+<p align="center">
+  <img src="https://cdn.discordapp.com/attachments/1441789229276594287/1463613132227219456/image.png?ex=69727773&is=697125f3&hm=0e1a65590d762c01fe0cebf6e7f0ee9f9d43a0b7fcf485d9b87c23f90c2ce0dd&" alt="Project Header" width="600">
+</p>
+
 # Webserver Discord Logger
 
 A Flask-based web dashboard and Discord selfbot logger for tracking and displaying deleted messages from Discord servers. Features a modern UI, configuration page, and persistent message logging to a SQLite database.
