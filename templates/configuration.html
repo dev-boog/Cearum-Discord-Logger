@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cearum</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='theme.css') }}">
+    <link rel="stylesheet" href="/static/theme.css">
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/htmx.org@2.0.8/dist/htmx.min.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <div class="box-theme p-3">
+        <div class="flex justify-between items-center">
+            <div>
+                <h1 class="semibold text-[20px]">Cerarum</h1>
+            </div>
+            <div class="flex gap-3 text-[13px] text-neutral-400">
+                <a href="{{ url_for('index') }}" class="p-1 hover:text-white font-semibold hover:bg-blue-600 rounded hover:shadow-[0_0_15px_rgba(37,99,235,0.2)] transition">Dashboard</a>
+                <a href="{{ url_for('configuration') }}" class="text-white font-semibold bg-blue-600 rounded p-1 shadow-[0_0_15px_rgba(37,99,235,0.2)]">Configuration</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Logger Configuration -->
+    <div class="box-theme m-5 rounded p-2">
+        <h1 class="text-[13px] font-medium text-neutral-400 mt-2 ml-2">Logger Configuration</h1>
+        <h1 class="text-[13px] font-semibold mx-2">Adjust the logger to your liking.</h1>
+        <hr class="border-neutral-700 m-2">
+    </div>
+</body>
+</html>

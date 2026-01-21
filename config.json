@@ -1,0 +1,15 @@
+{
+    "token": "",
+    "server_port": 5420,
+    "use_gui": true,
+
+    "logger_settings": {
+        "log_deleted_messages": true,
+        "ignore_bots": true,
+        "messages_to_fetch": 5,
+        "ignore_self": false,
+        "ignored_clients": [],
+        "ignored_guilds": [],
+        "ignored_channels": []
+    }
+}
